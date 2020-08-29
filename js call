@@ -1,0 +1,5 @@
+$('#lastFmWidget').lastfmNowPlaying({
+	apiKey: '1a02967e3f034ad101153c030e8d2b6a
+',
+	members: ['coldhunter']
+});
