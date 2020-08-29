@@ -1,6 +1,6 @@
 
-<script src="/scripts/vendor/jquery.js"></script>
-<script src="/scripts/plugins/lastfmnowplaying.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://github.com/devteaminc/Last.fm-Now-Playing-Widget/blob/master/jquery.lastfmnowplaying.js"></script>
 
 
 <script type="text/template" id="lastFmWidget">
