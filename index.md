@@ -36,6 +36,15 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 
+<script src="/scripts/vendor/jquery.js"></script>
+<script src="/scripts/plugins/lastfmnowplaying.js"></script>
+
+$('#lastFmWidget').lastfmNowPlaying({
+	apiKey: '1a02967e3f034ad101153c030e8d2b6a
+',
+	members: ['coldhunter']
+});
+
 <script type="text/template" id="lastFmWidget">
 	<div>{ track.artist }</div>
 	<div>{ track.title }</div>
