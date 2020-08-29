@@ -1,3 +1,6 @@
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://github.com/devteaminc/Last.fm-Now-Playing-Widget/blob/master/jquery.lastfmnowplaying.js"></script>
+
 $('#lastFmWidget').lastfmNowPlaying({
 	apiKey: '1a02967e3f034ad101153c030e8d2b6a
 ',
