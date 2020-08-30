@@ -11,9 +11,7 @@
 </script>
 
 /**
-  Developed by Prashant Shrestha
-  + https://prashant.me
-*/
+
 <script>
 	var lastfmData = {
   baseURL:
