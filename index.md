@@ -12,7 +12,7 @@
 
 /**
 
-<script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	var lastfmData = {
   baseURL:
     "https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=",
@@ -60,7 +60,7 @@ var getSetLastFM = function() {
         "<img src='https://i.imgur.com/fae5XZA.png'>Prashant Shrestha";
       $("a#trackartist")
         .html(artistFormatted)
-        .attr("href", "www.prashant.me/");
+        .attr("href", "");
     }
   });
 };
