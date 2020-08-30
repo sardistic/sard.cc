@@ -14,13 +14,14 @@
   Developed by Prashant Shrestha
   + https://prashant.me
 */
-var lastfmData = {
+<script>
+	var lastfmData = {
   baseURL:
     "https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=",
   // Your Last.fm Username
-  user: "YOUR_LAST_FM_USERNAME",
+  user: "coldhunter",
   // Your API key
-  api_key: "YOUR_LAST_FM_API_KEY",
+  api_key: "1a02967e3f034ad101153c030e8d2b6a",
   additional: "&format=json&limit=1"
 };
 
@@ -70,6 +71,7 @@ var getSetLastFM = function() {
 getSetLastFM();
 // Start the countdown.
 setInterval(getSetLastFM, 10 * 1000);
+</script>
 
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
 
